@@ -5,9 +5,9 @@ let fila =["Perro", "Gato", "Conejo"];
 //Llega un "Hámster" que debe ser atendido primero. 
 //Agrega el "Hámster" al inicio de la lista. 
 fila.unshift("Hámster");
-
 //Luego, atiende a la primera mascota de la fila y muéstrala. 
 console.log(`Favor de pasar con el veterinario la persona con su mascosta ${fila[0]}`);
+fila.shift("Hámster");// se elimina de la lista
 
 
 //Finalmente, muestra la lista actualizada.
